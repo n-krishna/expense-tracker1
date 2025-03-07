@@ -35,6 +35,40 @@ const AddTransactionScreen = ({ navigation }) => {
   );
 };
 
-const styles = StyleSheet.create({ /* styling here */ });
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#f5f5f5',
+  },
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginBottom: 15,
+    color: '#333',
+  },
+  input: {
+    width: '100%',
+    height: 50,
+    borderWidth: 1,
+    borderColor: '#ccc',
+    borderRadius: 8,
+    paddingHorizontal: 15,
+    marginBottom: 15,
+    backgroundColor: '#fff',
+  },
+  button: {
+    backgroundColor: '#28A745',
+    padding: 12,
+    borderRadius: 10,
+    alignItems: 'center',
+  },
+  buttonText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
+
 
 export default AddTransactionScreen;
